@@ -1,0 +1,8 @@
+s3_paths:
+  input: "s3://your-raw-data-bucket/path/"
+  output: "s3://your-processed-data-bucket/path/"
+
+database:
+  secret_name: "rds-mysql-credentials"
+  region: "us-east-1"
+  table: "sales_table"
